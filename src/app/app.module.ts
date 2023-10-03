@@ -9,6 +9,9 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ErrorComponent } from './error/error.component';
 import { ListTodosComponent } from './list-todos/list-todos.component';
+import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
+import { LogoutComponent } from './logout/logout.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ListTodosComponent } from './list-todos/list-todos.component';
     WelcomeComponent,
     LoginComponent,
     ErrorComponent,
-    ListTodosComponent
+    ListTodosComponent,
+    MenuComponent,
+    FooterComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
